@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title> contato </title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1 class="titulo-principal">Ode ao Filme 🎞️</h1>
+			<br>
+			<br>
+			<div class="caixa">
+				<nav>
+					<ul>
+						<br>
+						<br>
+						<br>
+						<li><a href="trabalhos.html">Trabalhos</a></li>
+						<br>
+						<br>
+						<br>
+						<li><a href="index.html">Sobre</a></li>
+						<br>
+						<br>
+						<br>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+
+					<img class= "imagemtrabalhos" src="trabalhos.jpg">
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">E-mail</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="67" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset class="conjunto">
+					<legend>Como prefere o nosso contato?</legend>
+
+					<input type="radio" name="contato" value="email" id="radio-email"> E-mail<br>
+
+					<input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone<br>
+
+					<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp<br>
+
+					<p class="certeza">Tem certeza que não prefere o contato via whatsapp?</p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário você prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+				
+			</form>	
+		</main>
+
+		<footer>
+			<div class="areacamera">
+				<div class="boxcamera">
+					<img src="cameraanimada2.png">
+			</div>
+			
+			<img src="rodape.png">
+			<p class="copyright">&copy; Copyright Ode ao Filme - 2024</p>
+		</footer>
+	</body>
+</html>
